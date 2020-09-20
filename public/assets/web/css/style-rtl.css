@@ -1,0 +1,343 @@
+body{
+    font-family:  'Cocon Next Arabic' , 'VIP Hakim Bold' , 'VIP Hala Bold' , 'Hacen Typographer Book' , serif, Arial;
+    direction: rtl;
+}
+.owl-carousel{
+    direction: ltr;
+}
+.owl-carousel .item{
+    direction: rtl;
+}
+.search-group .btn {
+    right: auto;
+    left: 10px;
+}
+.btn-cart img{
+    transform: rotateY(180deg);
+}
+.header-menu .badge {
+    right: auto;
+    left: 4px;
+}
+.header-menu-wrapper {
+    right: auto;
+    left: 0;
+}
+.countries-wrapper .dropdown-menu {
+    text-align: right;
+}
+.lang-select {
+    padding-left: 0;
+    padding-right: 10px
+}
+.menu-icon {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+.sidenav {
+    margin-left: auto;
+    margin-right: -300px;
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.visible {
+    margin-left: auto;
+    margin-right: 0
+}
+.sidenav .menu-contents {
+    text-align: right;
+}
+.panel-default > .panel-heading a:after {
+    float: left;
+}
+.panel-default > .panel-heading a[aria-expanded=true]:after {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.panel-default > .panel-heading a[aria-expanded=false]:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.accordion-option {
+    float: right;
+}
+
+.accordion-option .title {
+    float: right;
+}
+/**/
+.top-section .man-women-wrapper {
+    left: auto;
+    right: 150px;
+}
+.top-section .man-women.man {
+    left: auto;
+    right: 0
+}
+.top-section .man-women.women {
+    left: auto;
+    right: 80px
+}
+.top-section .man-women .overlay, .top-section .man-women img {
+    left: auto;
+    right: -60px;
+}
+
+.top-section .man-women:hover img {
+    left: auto;
+    right: -70px
+}
+#top-carousel {
+    transform: rotate(-27deg);
+    border-radius: 0 0 0 26% / 0 0 0 47%;
+    box-shadow: -15px 15px 0 #eee;
+
+}
+#top-carousel .item {
+    transform: rotate(27deg);
+}
+.page-title {
+    float: right;
+}
+.product-item .rating-wrapper {
+    right: auto;
+    left: 10px;
+}
+.product-item.premium-product  .rating-wrapper,
+.product-item.seller-item  .rating-wrapper{
+    right: auto;
+    left: 0;
+}
+.product-item .add-to-favourites {
+    left: auto;
+    right: 10px;
+}
+.product-item.premium-product .add-to-compare {
+    right: auto;
+    left: 10px;
+}
+.product-item.premium-product .add-to-compare:hover  {
+    transform: rotate(45deg);
+}
+.product-item .btn-add-cart {
+    right: auto;
+    left: -15px
+}
+.hot-deal .btn-see-more {
+    left: auto;
+    right: 20px;
+}
+
+.category-item .cat-img:after {
+    left: auto;
+    right: 1%;
+}
+.actual-rating .rating > label, .rating > label {
+    float: left;
+    direction: ltr;
+    position: relative;
+}
+.rating > label.half:before {
+    margin-right: 0;
+    margin-left: -8px;
+    transform: rotateY(180deg);
+}
+.actual-rating .rating > label.half:before {
+    margin-right: 0;
+    margin-left: -10px;
+}
+
+.item-shopping-cart-btns .remove-item {
+    left: auto;
+    right: 20px
+}
+.price-range-slider {
+    float: right;
+}
+
+#amazingslider-wrapper-1{
+    padding-left: 0 !important;
+    padding-right: 83px !important;
+}
+.amazingslider-box-1{
+    margin-left: -5px !important;
+    margin-right: 0 !important;
+}
+
+.amazingslider-nav-1{
+    left: 100% !important;
+    right: auto !important;
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+}
+.number-input button:after, .number-input button:before {
+    transform: translate(50%, -50%);
+}
+.number-input button.plus:after {
+    transform: translate(50%, -50%) rotate(90deg);
+}
+
+.products-details-row .title{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.share-socials-icons-wrapper .title{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.share-socials-icons .fa {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.product-tabs .nav-tabs>li>a {
+    margin-right: 0;
+    margin-left: 35px;
+}
+.highest-selling-product-item .product-details{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.highest-selling-product-item .product-details .product-rating .rating-wrapper {
+     text-align: right;
+}
+.cart-tabs .nav-tabs>li>a {
+    margin-right: auto;
+    margin-left: 0;
+}
+.cart-tabs .nav-tabs>li>a span {
+    left: auto;
+    right: 20px;
+}
+.next-tab i{
+    transform: rotateY(180deg);
+}
+.discount-coupon .clear-btn{
+    right: auto;
+    left: 26px;
+ }
+.radio-container {
+    padding-left: 0;
+    padding-right: 35px;
+}
+.radio-container .checkmark {
+    left: auto;
+    right: 0;
+}
+.socials span i {
+    margin: 9px -7px 0 0
+}
+.main-content {
+    margin: 0 30px 0 auto;
+}
+.profile-sidebar .user-img .upload-btn-wrapper {
+    right: auto;
+    left: -12px;
+}
+.upload-btn-wrapper input[type=file] {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+ul.profile-menu li a img{
+    left: auto;
+    right: 25px;
+}
+.section-wrapper .section-header{
+    left: auto;
+    right: -10px;
+}
+.file-upload .file-select .file-select-button {
+    right:auto;
+    left: 0;
+}
+.order-row .title{
+    float: right;
+    text-align: right;
+
+}
+.order-row .order-number{
+    float: left;
+
+}
+select:not([multiple]) {
+    background-position: 10px 50% !important;
+}
+.dash-tab .dash-tab-title img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.table-wrapper:before, .table-wrapper:after{
+    left: 0;
+    right: -15px;
+}
+.table-wrapper .table .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.pagination>li>a, .pagination>li>span {
+    float: right;
+    margin-left: 0;
+    margin-right: -1px;
+}
+.switch .slider:before {
+    left: auto;
+    right: -1px;
+}
+.reply-wrapper .replay-details .reply-time{
+    text-align: left;
+}
+.gender-container {
+    padding-left: 0;
+    padding-right: 40px;
+}
+.gender-container .checkmark {
+    left: auto;
+    right: 0;
+}
+
+.step-wrapper li span:after {
+    left: auto;
+    right: 50%;
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(-0%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%)
+}
+.step-wrapper li:before {
+    right: auto;
+    left: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .collapse.navbar-collapse {
+        margin-left: 0;
+        margin-right: 100px
+    }
+}
+@media screen and (max-width: 1199px) {
+    #top-carousel .carousel-caption {
+        left: 50%;
+        right: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse.collapse > .nav.navbar-nav {
+        right: auto;
+        left: 10px;
+    }
+    .cart-tabs .nav-tabs>li>a span {
+        left: auto;
+        right: 0;
+    }
+}

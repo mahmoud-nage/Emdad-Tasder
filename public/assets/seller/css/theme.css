@@ -1,0 +1,214 @@
+html, ul {
+    margin: 0;
+    padding: 0
+}
+
+.btn-facebook, .btn-facebook:focus, .btn-main, .btn-main:focus {
+    transition: all .5s ease-in-out !important;
+    color: #fff !important
+}
+
+html {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cocon® Next Arabic' , 'Hacen Typographer Book' , serif, Arial;
+    font-size: 14px;
+    height: 100%;
+    background: #f5f5f5;
+    padding-top: 50px;
+    /*overflow-x: hidden*/
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF1493;
+    border-radius: 5px
+}
+
+::-moz-selection {
+    background: #f76b99;
+    color: #fff
+}
+
+::selection {
+    background: #f76b99;
+    color: #fff
+}
+
+@font-face {
+    font-family: 'Cocon® Next Arabic';
+    src: url('../fonts/Cocon® Next Arabic-Light.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Hacen Typographer Book';
+    src: url('../fonts/Hacen Typographer Book.ttf');
+    font-weight: normal;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+* {
+    box-sizing: border-box;
+    outline: none !important;
+}
+/************************ Some Default CSS ****************************/
+/* direction*/
+.direction_rtl{direction: rtl !important;}
+.direction_ltr{direction: ltr !important;}
+/* Padding & Margin */
+.no-padding{padding:0!important}.no-margin{margin:0 auto!important}.padding-10{padding:10px}.padding-20{padding:20px}.padding-30{padding:30px}.padding-40{padding:40px}.padding-50{padding:50px}.padding-t-m-10{padding-top:10px;padding-bottom:10px}.padding-t-m-20{padding-top:20px;padding-bottom:20px}.padding-t-m-30{padding-top:30px;padding-bottom:30px}.padding-t-m-40{padding-top:40px;padding-bottom:40px}.padding-t-m-50{padding-top:50px;padding-bottom:50px}.padding-top-10{padding-top:10px}.padding-top-20{padding-top:20px}.padding-top-30{padding-top:30px}.padding-top-40{padding-top:40px}.padding-top-50{padding-top:50px}.padding-bottom-10{padding-bottom:10px}.padding-bottom-20{padding-bottom:20px}.padding-bottom-30{padding-bottom:30px}.padding-bottom-40{padding-bottom:40px}.padding-bottom-50{padding-bottom:50px}.padding-left-10{padding-left:10px}.padding-left-20{padding-left:20px}.padding-left-30{padding-left:30px}.padding-left-40{padding-left:40px}.padding-left-50{padding-left:50px}.padding-right-10{padding-right:10px}.padding-right-20{padding-right:20px}.padding-right-30{padding-right:30px}.padding-right-40{padding-right:40px}.padding-right-50{padding-right:50px}.margin-10{margin:10px auto}.margin-20{margin:20px auto}.margin-30{margin:30px auto}.margin-40{margin:40px auto}.margin-50{margin:50px auto}.margin-top-10{margin-top:10px}.margin-top-20{margin-top:20px}.margin-top-30{margin-top:30px}.margin-top-40{margin-top:40px}.margin-top-50{margin-top:50px}.margin-bottom-10{margin-bottom:10px}.margin-bottom-20{margin-bottom:20px}.margin-bottom-30{margin-bottom:30px}.margin-bottom-40{margin-bottom:40px}.margin-bottom-50{margin-bottom:50px}
+/* Display block & inline-block*/
+.d-flex{display:flex!important}.d-block{display:block!important}.d-inline-block{display: inline-block!important}.d-hidden{display:none}
+/* fonts*/
+.font-size-8{font-size:8px!important}.font-size-10{font-size:10px!important}.font-size-12{font-size:12px!important}.font-size-14{font-size:14px!important}.font-size-16{font-size:16px!important}.font-size-18{font-size:18px!important}.font-size-20{font-size:20px!important}.font-size-22{font-size:22px!important}.font-size-24{font-size:24px!important}.font-size-26{font-size:26px!important}.font-size-28{font-size:28px!important}.font-size-30{font-size:30px!important}.font-size-32{font-size:32px!important}.font-size-34{font-size:34px!important}.font-size-36{font-size:36px!important}
+/*Font Weight Bold*/
+.bold{font-weight:bold}
+textarea{resize: vertical !important;}
+.fit-content{width: fit-content !important;}
+.full-width{width:100%!important;}
+
+/* colors*/
+.color-white {
+    color: #fff
+}
+
+.color-black {
+    color: #000
+}
+
+.color-main {
+    color: #f76b99
+}
+
+.color-gray {
+    color: grey
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.bg-black {
+    background-color: #000
+}
+
+.bg-gray {
+    background-color: #F3F3F3
+}
+
+.btn-main, .btn-main:focus {
+    color: #fff !important;
+    background: #FF7BAC !important;
+    border: none !important;
+    border-radius: 20px !important;
+    width: auto;
+    min-width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px auto;
+    font-size: 16px;
+    display: inline-block;
+}
+.btn-main i{
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+
+.btn-success, .btn-success:focus {
+    color: #fff !important;
+    background: #09CE00 !important;
+    border: none !important;
+    border-radius: 20px !important;
+    width: auto;
+    min-width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px auto;
+    display: inline-block;
+}
+
+.btn-main:hover {
+    background: #9453cd !important;
+    color: #fff !important;
+    border-radius: 20px !important
+}
+
+.btn-facebook, .btn-facebook:focus {
+    background: #4267b2 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    height: auto !important
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%
+}
+
+/**/
+.modal {
+    text-align: center;
+    padding: 0!important;
+    z-index:9999;
+
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+    #back-to-top {
+        right: 5px
+    }
+
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    h4 {
+        font-size: 14px
+    }
+}
